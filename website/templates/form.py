@@ -59,8 +59,12 @@ class SignUpForm(UserCreationForm):
             'Your password cannot be too similar to your other personal '
             'information.'
             '</li><li>'
-            'Your password must contain at least 8 characters, and cannot be'
-            ' entirely numeric.</li></ul>'
+            'Your password must contain at least 8 characters.''</li><li>'
+            'Your password con`t be acommonly used password '
+            '</li><li>'
+            'Your password must not contain entirely numeric.</li>'
+            '</ul>'
+
         )
 
         self.fields['password2'].widget.attrs['class'] = 'form-control'
