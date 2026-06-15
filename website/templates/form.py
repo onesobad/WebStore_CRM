@@ -60,7 +60,7 @@ class SignUpForm(UserCreationForm):
             'information.'
             '</li><li>'
             'Your password must contain at least 8 characters.''</li><li>'
-            'Your password con`t be acommonly used password '
+            'Your password con`t be a commonly used password '
             '</li><li>'
             'Your password must not contain entirely numeric.</li>'
             '</ul>'
