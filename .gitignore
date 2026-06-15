@@ -1,4 +1,6 @@
+-- Active: 1781005197670@@127.0.0.1@3306@tech_db
 # Environment Variables
+node_modules/
 .env
 .env.local
 .env.*.local
@@ -38,6 +40,9 @@ env/
 *.swo
 *~
 .DS_Store
+
+# Bootstrap
+node_modules/
 
 # Database
 *.db
